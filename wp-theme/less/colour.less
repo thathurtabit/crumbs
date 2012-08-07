@@ -1,0 +1,50 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Colour =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+
+a, &:visited { 
+text-decoration : none;
+color : @linkcolor; 
+
+&:hover { 
+text-decoration : underline;
+color : @linkcolorhover; }
+
+&:focus { 
+outline : thin dotted; 
+color : @linkcolorfocus; }
+
+&:hover, 
+&:active { 
+outline : 0; }
+}
+
+::-moz-selection { 
+background-color : #f90; 
+color : #fff; 
+text-shadow : none; }  
+	
+::selection { 
+background-color : #f90; 
+color : #fff; 
+text-shadow : none; }
+
+
+
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

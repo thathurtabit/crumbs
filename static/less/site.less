@@ -1,0 +1,98 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Page =================================================== */
+
+// 1. ROOT 					==============================
+
+html {
+background : @bodycolor;
+padding : 0 5%;
+font-size : 62.5%;
+-webkit-overflow-scrolling : touch; 
+-webkit-tap-highlight-color : lighten(@basecolor, 75%); 
+-webkit-text-size-adjust : 100%; 
+-ms-text-size-adjust : 100%; }
+
+body { 
+margin : 0 auto;
+padding : 0;
+width : 100%;
+background-color : transparent;
+font-family : @basefont;
+.font-size();
+line-height : @baselineheight;
+color : @textcolor;
+text-align: center;
+max-width : 980px;
+}
+
+
+// On page loaded
+body.loaded {
+    header h1, footer, .content {
+        .opacity(1);
+        padding-top: 0;
+    }
+    header {
+        background-position: center 0px;        
+        .transition(.4s, ease-in-out);   
+    }
+    header h1 {
+        .transition(.6s, ease-out, .8s);  
+    }
+    .content {
+        .transition(.6s, ease-out, 1.2s);    
+    }
+    footer {
+        .transition(.6s, ease-out, 1.5s);
+        padding-top: 20px;
+    }
+}
+
+// 2. TYPOGRAPHY 			==============================
+
+.divider {
+    background: url(../img/divider.gif) no-repeat center top, url(../img/divider.gif) no-repeat center bottom;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+
+header {
+    background: url(../img/crumbs.jpg) no-repeat center -188px;
+    padding: 110px 0 0;
+}
+
+footer {
+    background: url(../img/divider.gif) no-repeat center top;
+    padding: 20px 0;
+    margin: 20px 0;
+    p {
+        margin-bottom: 0.5em; 
+    }
+}
+
+header h1, footer, .content {
+    .opacity(0);
+    padding-top: 10px;
+}
+
+.addthis_toolbox {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+}
+
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

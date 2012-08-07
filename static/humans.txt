@@ -1,0 +1,18 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Name: 			Stephen Fairbanks
+Site:			http://ghosthorses.co.uk
+Twitter:		@thathurtabit
+Location:		Manchester, England
+
+Components: 
+
+320 and Up: 		http://stuffandnonsense.co.uk/projects/320andup 
+Bootstrap: 			http://twitter.github.com/bootstrap
+Font Awesome: 		http://fortawesome.github.com/Font-Awesome
+Frameless grid: 	http://framelessgrid.com
+jQuery: 			http://jquery.com
+Modernizr: 			http://modernizr.com
+Selectivizr: 		http://selectivizr.com
