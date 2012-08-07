@@ -17,3 +17,8 @@ How to use Crumbs for WordPress
 4. Go to Appearance > Themes and activate Crumbs.
 
 5. Email your client and politely let them know that Crumbs will remain active until payment is cleared.
+
+
+NOTE:
+
+Crumbs will automatically change the name of the website so all you'll have to do is activate the theme.
