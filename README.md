@@ -19,6 +19,10 @@ How to use Crumbs for WordPress
 5. Email your client and politely let them know that Crumbs will remain active until payment is cleared.
 
 
-NOTE:
+Demo
+=====
 
-Crumbs will automatically change the name of the website so all you'll have to do is activate the theme.
+You can view a demo of the Crumbs theme by following this link: http://crumbs.thathurtabit.com
+
+
+NOTE: Crumbs will automatically change the name of the website so all you'll have to do is activate the theme.
